@@ -185,7 +185,7 @@ install(TARGETS solver
     RUNTIME DESTINATION bin
 )
 
-#Передает управление средству пакетирования, которое мы создадим позже
+#Передает управление средству пакетирования
 include(CPackConfig.cmake)
 ```
 
